@@ -1,0 +1,39 @@
+composer create-project laravel/laravel curso-laravel-8
+Fora do Laradock
+sudo chown -R casa:casa /home/casa/Workspace/curso-laravel-8/
+sudo chmod -R 755 storage bootstrap/cache
+//
+Em config.::Mude o timezone
+//
+//Git   Git     Git
+git init
+git status
+git add .
+git add --all
+git commit -m "Resolvendo bug da img";
+
+git push origin master (Enviar do branch local para ao remoto)
+git push origin master --force (Força o envio do branch local para ao remoto)
+
+git remote update #vai atualizar os branches locais com as copias do repositório online
+git reset upstream/master
+git pull -r upstream master
+
+git log
+
+git branch
+ git branch -a (Diz qual branch estou)
+ git branch feature-api    (cria a branch feature-api)
+
+ git checkout feature-api  (nós move para a branch feature-api)
+ git checkout master
+
+ git merge feature-api     (traz as alterações da branch feature-api)
+ git merge upgrade-to-7x    (traz as alterações da branch feature-api)
+ git merge master
+
+ git branch -D feature-api (Apagar um branch local)
+ git push origin --delete feature-api (Apagar um branch remoto)
+ git branch -dr origin/feature-api
+//
+//
