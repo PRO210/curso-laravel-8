@@ -6,6 +6,7 @@ sudo chmod -R 755 storage bootstrap/cache
 Em config.::Mude o timezone
 //
 //Git   Git     Git
+git remote add origin https://github.com/PRO210/curso-laravel-8.git
 git init
 git status
 git add .
@@ -15,6 +16,7 @@ git commit -m "Resolvendo bug da img";
 git push origin master (Enviar do branch local para ao remoto)
 git push origin master --force (Força o envio do branch local para ao remoto)
 
+git remote
 git remote update #vai atualizar os branches locais com as copias do repositório online
 git reset upstream/master
 git pull -r upstream master
